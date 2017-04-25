@@ -36,9 +36,9 @@ public class Test
       {
         try
         {
-          password = data.substring(0, 13);
-          direction = data.substring(13, 14);
-          time = Integer.parseInt(data.substring(14));
+          password = data.substring(0, 9);
+          direction = data.substring(9, 10);
+          time = Integer.parseInt(data.substring(10));
         }
         catch (Exception localException) {}
         if ((direction.equals("F")) && (password.equals("random123")))
