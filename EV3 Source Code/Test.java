@@ -50,7 +50,7 @@ public class Test
           {
             public void run()
             {
-              Test.this.stop();
+              m.stop();
             }
           }.start();
           m2.stop();
@@ -64,7 +64,7 @@ public class Test
           {
             public void run()
             {
-              Test.this.stop();
+              m.stop();
             }
           }.start();
           m2.stop();
@@ -78,7 +78,7 @@ public class Test
           {
             public void run()
             {
-              Test.this.stop();
+              m.stop();
             }
           }.start();
           m2.stop();
@@ -92,7 +92,7 @@ public class Test
           {
             public void run()
             {
-              Test.this.stop();
+              m.stop();
             }
           }.start();
           m2.stop();
